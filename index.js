@@ -7,7 +7,6 @@ const { v4: uuidv4 } = require('uuid');
 const { MongoClient, GridFSBucket, ObjectId } = require('mongodb');
 const stream = require('stream');
 require('dotenv').config(); // Load environment variables
-const path = require('path');
 
 
 const app = express();
