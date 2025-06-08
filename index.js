@@ -6,7 +6,7 @@ const nodemailer = require('nodemailer');
 const { v4: uuidv4 } = require('uuid');
 const { MongoClient, GridFSBucket, ObjectId } = require('mongodb');
 const stream = require('stream');
-require('dotenv').config(); // Load environment variables
+require('dotenv').config(); 
 
 
 const app = express();
