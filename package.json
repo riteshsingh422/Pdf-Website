@@ -1,0 +1,22 @@
+{
+  "name": "file-upload-backend",
+  "version": "1.0.0",
+  "description": "Backend for file upload and approval",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "framer-motion": "^12.15.0",
+    "mongodb": "^6.17.0",
+    "multer": "^1.4.5-lts.2",
+    "nodemailer": "^7.0.3",
+    "twilio": "^5.5.1",
+    "uuid": "^11.1.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
